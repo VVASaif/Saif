@@ -1,0 +1,20 @@
+{
+    "name": "vva/last",
+    "description": "MyLastVVA",
+    "authors": [
+        {
+            "name": "Saif",
+            "email": "saif@vva.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+			"Helpers\\Form\\": "Classes/Helpers",
+			"Donnes\\SELECT\\":"Classes/Donnes",
+			"Donnes\\INSERT\\":"Classes/Donnes",
+			"Controler\\POST\\":"Classes/Controlers",
+			"Controler\\FORMULAIRE\\":"Classes/Controlers",
+			"":"Classes/Pdo"
+			}
+    }
+}
